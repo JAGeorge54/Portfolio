@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navigation() {
@@ -10,9 +11,9 @@ function Navigation() {
         <Container>
           <Navbar.Brand href="#home">Jesse George</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Contact Me</Nav.Link>
+            <Nav.Link as={ Link } to='/'>Home</Nav.Link>
+            <Nav.Link as={ Link } to='/projects'>Projects</Nav.Link>
+            <Nav.Link as={ Link } to='/contact'>Contact Me</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
