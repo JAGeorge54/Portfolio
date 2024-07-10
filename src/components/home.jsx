@@ -13,11 +13,12 @@ function Home() {
             <Row className="justify-content-center">
                 <Col md={3}sm="auto">
                 <BioCard />
-                </Col>
-                <Col md={4} className='video1'>
                 <div className="ratio ratio-16x9">
                     <iframe src="https://www.youtube.com/embed/ty_mlNuzll8?si=UF64PMYEl8TCKHc_" title="YouTube video" allowfullscreen></iframe>
                 </div>
+                </Col>
+                <Col md={4} className='video1'>
+                
                 </Col>
             </Row>
             <Row>
