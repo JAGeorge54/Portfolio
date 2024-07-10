@@ -1,5 +1,6 @@
 .container {
     padding: 5px;
+    opacity: 0.8;
 }
 
 body {
@@ -8,3 +9,7 @@ body {
     background-size: 100% 100%;
     height: 100vh;
   }
+
+.video1 {
+    margin-left: 300px;
+}  
