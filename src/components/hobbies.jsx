@@ -7,8 +7,19 @@ import Card from 'react-bootstrap/Card'
 function Hobbies() {
     return (
         <>
-            <Card style={{ width: '18rem' }}>
-                text
+            <Card border="dark" style={{ width: '40rem' }}>
+                <Card.Header>Hobbies</Card.Header>
+                <Card.Body>
+                    <Card.Text>
+                        <ul>
+                            <li>Collecting and building Lego's</li>
+                            <li>Video Games</li>
+                            <li>Weight Lifting</li>
+                            <li>Bike Riding</li>
+                            <li>Barbecuing</li>
+                        </ul>
+                    </Card.Text>
+                </Card.Body>
             </Card>
         </>
     )
