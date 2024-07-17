@@ -1,10 +1,10 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/navbar';
-import Home from './components/home'
-import Projects from './components/Projects'
-import Contact from './components/contact'
-import { Route, Routes} from "react-router-dom"
+import Home from './pages/home/home';
+import Projects from './pages/projects/Projects';
+import Contact from './pages/contact/contact';
+import { Route, Routes} from "react-router-dom";
 
 
 function App() {
