@@ -6,7 +6,7 @@ function BioCard() {
     return (
         <div className='biocard'>
             <div style={{
-
+                padding: '10px'
             }}
             >
                 <Card style={{ width: '18rem' }}>
