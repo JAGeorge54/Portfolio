@@ -10,9 +10,6 @@ function Home() {
             <div style={{
                 display: 'flex',
                 justifyContent: 'center',
-                padding: '5px',
-                flexDirection: 'row'
-
             }}
             >
                 <div style={{display: 'flex'
