@@ -2,7 +2,8 @@ import Card from 'react-bootstrap/Card';
 import './projects.css'
 import Pacman from '../../assets/PacMan1.png'
 import Oneeye from '../../assets/oneeyenew.png'
-import Mapnew from '../../assets/mapnew.jpg'
+import Map from '../../assets/mapnew.jpg'
+import BadBank from '../../assets/BadBankCrop.png'
 
 function Projects() {
     return (
@@ -14,38 +15,62 @@ function Projects() {
             flexWrap: 'wrap',
 
         }}>
-            <div>
+            <div className='card'>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={Pacman} />
+                    <div className='cardImg'>
+                        <Card.Img variant="top" src={Pacman} style={{height: '261.29px'}}/>
+                    </div>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>PacMan</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                            <a href="https://github.com/JAGeorge54/factoryForPacMen">Github Link</a>
+                            <br />
+                            <a href="https://jageorge54.github.io/factoryForPacMen/">see it in action</a>
                         </Card.Text>
                     </Card.Body>
                 </Card>
             </div>
             <div className='card'>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={Oneeye} />
+                    <div className='cardImg'>
+                        <Card.Img variant="top" src={Oneeye} />
+                    </div>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Eye Movement</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                            <a href="https://github.com/JAGeorge54/eyeMovementExercise">Github Link</a>
+                            <br />
+                            <a href="https://jageorge54.github.io/eyeMovementExercise/">see it in action</a>
                         </Card.Text>
                     </Card.Body>
                 </Card>
             </div>
             <div className='card'>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={Mapnew} />
+                    <div className='cardImg'>
+                        <Card.Img variant="top" src={Map} />
+                    </div>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>Bus Tracking</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                            <a href="https://github.com/JAGeorge54/RealTimeBusTracker">Github Link</a>
+                            <br />
+                            <a href="https://jageorge54.github.io/RealTimeBusTracker/">See it in action</a>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </div>
+            <div className='card'>
+                <Card style={{ width: '18rem' }}>
+                    <div className='cardImg'>
+                        <Card.Img variant="top" src={BadBank} />
+                    </div>
+                    <Card.Body>
+                        <Card.Title>MIT MERN Full Stack Capstone Project</Card.Title>
+                        <Card.Text>
+                            <a href="https://github.com/JAGeorge54/badBank_threeTier">Github Link</a>
+                            <br />
+                            <a href="https://jageorge54-badbank-threetier-b8ee485df166.herokuapp.com/#/">See it in action</a>
                         </Card.Text>
                     </Card.Body>
                 </Card>

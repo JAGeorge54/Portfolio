@@ -2,3 +2,9 @@
     gap: 2rem;
     margin-top: 10px;
 }
+
+.cardImg {
+    margin: 10px;
+    border-radius: 2%;
+    border: 2px solid lightgrey;
+}
