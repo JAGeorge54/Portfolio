@@ -1,17 +1,22 @@
 import Card from 'react-bootstrap/Card';
+import './projects.css'
+import Pacman from '../../assets/PacMan1.png'
+import Oneeye from '../../assets/oneeyenew.png'
+import Mapnew from '../../assets/mapnew.jpg'
 
 function Projects() {
     return (
-        <div style={{
+        <div className='container'>
+        <div className='cards' style={{
             display: 'flex',
-            justifyContent: 'space-evenly',
-            width: 1500,
-            height: 1500,
-            alignItems:'center'
+            justifyContent: 'center',
+            alignItems:'center',
+            flexWrap: 'wrap',
+
         }}>
             <div>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={Pacman} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -21,9 +26,9 @@ function Projects() {
                     </Card.Body>
                 </Card>
             </div>
-            <div>
+            <div className='card'>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={Oneeye} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -33,9 +38,9 @@ function Projects() {
                     </Card.Body>
                 </Card>
             </div>
-            <div>
+            <div className='card'>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={Mapnew} />
                     <Card.Body>
                         <Card.Title>Card Title</Card.Title>
                         <Card.Text>
@@ -45,6 +50,7 @@ function Projects() {
                     </Card.Body>
                 </Card>
             </div>
+        </div>
         </div>
     )
 }
