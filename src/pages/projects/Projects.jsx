@@ -66,7 +66,7 @@ function Projects() {
                         <Card.Img variant="top" src={BadBank} />
                     </div>
                     <Card.Body>
-                        <Card.Title>MIT MERN Full Stack Capstone Project</Card.Title>
+                        <Card.Title>BadBank</Card.Title>
                         <Card.Text>
                             <a href="https://github.com/JAGeorge54/badBank_threeTier">Github Link</a>
                             <br />
