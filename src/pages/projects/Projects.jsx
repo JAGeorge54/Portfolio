@@ -7,7 +7,7 @@ import BadBank from '../../assets/BadBankCrop.png'
 
 function Projects() {
     return (
-        <div className='container'>
+        <div className='content'>
         <div className='cards' style={{
             display: 'flex',
             justifyContent: 'center',

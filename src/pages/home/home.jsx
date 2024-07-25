@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 
 function Home() {
     return (
-        <div className='App'>
+        <div className='content'>
             <div style={{
                 display: 'flex',
                 justifyContent: 'center',
