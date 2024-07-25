@@ -23,7 +23,8 @@ function Home() {
                 </div>
                 <div style={{
                     display: 'flex',
-                    justifyContent: 'space-evenly'
+                    justifyContent: 'center',
+                    gap: 200,
                 }}>
                     <Card
                         bg='secondary'
