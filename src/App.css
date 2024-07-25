@@ -1,5 +1,8 @@
 .content {
   background-color: darkgrey;
+  display: 'flex';
+  justify-content: center;
+  flex-direction: column;
 }
 
 .cards {
