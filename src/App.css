@@ -7,4 +7,11 @@
 
 .cards {
   height: 100vh;
+  gap: 2rem;
+}
+
+.cardImg {
+  margin: 10px;
+  border-radius: 2%;
+  border: 2px solid lightgrey;
 }
