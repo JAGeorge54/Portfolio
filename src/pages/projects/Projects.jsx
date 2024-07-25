@@ -1,5 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import './projects.css'
 import Pacman from '../../assets/PacMan1.png'
 import Oneeye from '../../assets/oneeyenew.png'
 import Map from '../../assets/mapnew.jpg'
