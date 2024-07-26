@@ -12,12 +12,13 @@ function Home() {
             <div>
                 <div style={{
                     display: 'flex',
-                    justifyContent: 'center'
+                    justifyContent: 'center',
+                    flexWrap: 'wrap'
                 }}>
                     <BioCard />
                     <YoutubeEmbed embedId='ty_mlNuzll8?si=IdfUortm0KZ90j_v'/>
                 </div>
-                <div className='homeCards'>
+                <div className='homeCards' style={{flexWrap: 'wrap'}}>
                     <div className='hobbies'>
                         <h1>Hobbies</h1>
                         <div className='list'>
