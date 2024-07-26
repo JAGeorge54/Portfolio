@@ -15,3 +15,41 @@
   border-radius: 2%;
   border: 2px solid lightgrey;
 }
+
+.homeCards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hobbies {
+  border: solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.experience {
+  border: solid black;
+  border-radius: 10px / 10px;
+  background-color: white;
+}
+
+.experience h1 {
+  background-color: rgb(33, 37, 41);
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: solid black;
+  text-align: center;
+}
+.hobbies h1 {
+  background-color: rgb(33, 37, 41);
+  color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: solid black;
+  text-align: center;
+}
+
+.list {
+  padding-right: 10px;
+}

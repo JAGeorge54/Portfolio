@@ -17,43 +17,30 @@ function Home() {
                     <BioCard />
                     <YoutubeEmbed embedId='ty_mlNuzll8?si=IdfUortm0KZ90j_v'/>
                 </div>
-                <div style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    gap: 200,
-                }}>
-                    <Card
-                        bg='secondary'
-                        key='secondary'
-                        text='white'
-                        style={{ width: '18rem'}}
-                        className="mb-2"
-                        >
-                        <Card.Header>Hobbies</Card.Header>
-                        <Card.Body>
-                            <ListGroup variant='flush'>
-                                <ListGroup.Item variant='dark'>Cras justo odio</ListGroup.Item>
-                                <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                                <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-                            </ListGroup>
-                        </Card.Body>
-                    </Card>
-                    <Card
-                        bg='secondary'
-                        key='secondary'
-                        text='white'
-                        style={{ width: '18rem' }}
-                        className="mb-2"
-                        >
-                        <Card.Header>Header</Card.Header>
-                        <Card.Body>
-                            <Card.Title> Card Title </Card.Title>
-                            <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
+                <div className='homeCards'>
+                    <div className='hobbies'>
+                        <h1>Hobbies</h1>
+                        <div className='list'>
+                            <ul>
+                                <li>Collecting and Building Lego's</li>
+                                <li>Video Games</li>
+                                <li>Weight Lifting</li>
+                                <li>Bike Riding</li>
+                                <li>Barbecuing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className='experience'>
+                        <h1>Experience</h1>
+                        <div className='list'>
+                            <ul>
+                                <li>Army National Guard for six years as a FDC-Operator.</li>
+                                <li>One year deployment to Ramadi Iraq.</li>
+                                <li>Alcohol DSD(Direct Store Delivery) Driver for two years.</li>
+                                <li>Driver and warehouse manager for seven years.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
