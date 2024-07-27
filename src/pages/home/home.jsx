@@ -9,42 +9,39 @@ import Col from 'react-bootstrap/Col';
 function Home() {
     return (
         <div className='content'>
-            <div>
-                <div style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    flexWrap: 'wrap'
-                }}>
-                    <BioCard />
-                    <YoutubeEmbed embedId='ty_mlNuzll8?si=IdfUortm0KZ90j_v'/>
-                </div>
-                <div className='homeCards' style={{flexWrap: 'wrap'}}>
-                    <div className='hobbies'>
-                        <h1>Hobbies</h1>
-                        <div className='list'>
-                            <ul>
-                                <li>Collecting and Building Lego's</li>
-                                <li>Video Games</li>
-                                <li>Weight Lifting</li>
-                                <li>Bike Riding</li>
-                                <li>Barbecuing</li>
-                            </ul>
-                        </div>
+            <div style={{
+                display: 'flex',
+                justifyContent: 'center',
+                flexWrap: 'wrap'
+            }}>
+                <BioCard />
+                <YoutubeEmbed embedId='ty_mlNuzll8?si=IdfUortm0KZ90j_v'/>
+            </div>
+            <div className='homeCards' style={{flexWrap: 'wrap'}}>
+                <div className='hobbies'>
+                    <h1>Hobbies</h1>
+                    <div className='list'>
+                        <ul>
+                            <li>Collecting and Building Lego's</li>
+                            <li>Video Games</li>
+                            <li>Weight Lifting</li>
+                            <li>Bike Riding</li>
+                            <li>Barbecuing</li>
+                        </ul>
                     </div>
-                    <div className='experience'>
-                        <h1>Experience</h1>
-                        <div className='list'>
-                            <ul>
-                                <li>Army National Guard for six years as a FDC-Operator.</li>
-                                <li>One year deployment to Ramadi Iraq.</li>
-                                <li>Alcohol DSD(Direct Store Delivery) Driver for two years.</li>
-                                <li>Driver and warehouse manager for seven years.</li>
-                            </ul>
-                        </div>
+                </div>
+                <div className='experience'>
+                    <h1>Experience</h1>
+                    <div className='list'>
+                        <ul>
+                            <li>Army National Guard for six years as a FDC-Operator.</li>
+                            <li>One year deployment to Ramadi Iraq.</li>
+                            <li>Alcohol DSD(Direct Store Delivery) Driver for two years.</li>
+                            <li>Driver and warehouse manager for seven years.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
