@@ -37,7 +37,8 @@ function Home() {
                             <li>Army National Guard for six years as a FDC-Operator.</li>
                             <li>One year deployment to Ramadi Iraq.</li>
                             <li>Alcohol DSD(Direct Store Delivery) Driver for two years.</li>
-                            <li>Driver and warehouse manager for seven years.</li>
+                            <li>Driver manager for seven years.</li>
+                            <li>Warehouse manager of two locations for five years</li>
                         </ul>
                     </div>
                 </div>
