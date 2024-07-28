@@ -7,74 +7,68 @@ import BadBank from '../../assets/BadBankCrop.png'
 function Projects() {
     return (
         <div className='content'>
-        <div className='cards' style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems:'center',
-            flexWrap: 'wrap',
-
-        }}>
-            <div className='card'>
-                <Card style={{ width: '18rem' }}>
-                    <div className='cardImg'>
-                        <Card.Img variant="top" src={Pacman} style={{height: '261.29px'}}/>
-                    </div>
-                    <Card.Body>
-                        <Card.Title>PacMan</Card.Title>
-                        <Card.Text>
-                            <a href="https://github.com/JAGeorge54/factoryForPacMen">Github Link</a>
-                            <br />
-                            <a href="https://jageorge54.github.io/factoryForPacMen/">see it in action</a>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+            <div className='cards'>
+                <div className='card'>
+                    <Card style={{ width: '18rem' }}>
+                        <div className='cardImg'>
+                            <Card.Img variant="top" src={Pacman} style={{height: '261.29px'}}/>
+                        </div>
+                        <Card.Body>
+                            <Card.Title>PacMan</Card.Title>
+                            <Card.Text>
+                                <a href="https://github.com/JAGeorge54/factoryForPacMen">Github Link</a>
+                                <br />
+                                <a href="https://jageorge54.github.io/factoryForPacMen/">see it in action</a>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className='card'>
+                    <Card style={{ width: '18rem' }}>
+                        <div className='cardImg'>
+                            <Card.Img variant="top" src={Oneeye} />
+                        </div>
+                        <Card.Body>
+                            <Card.Title>Eye Movement</Card.Title>
+                            <Card.Text>
+                                <a href="https://github.com/JAGeorge54/eyeMovementExercise">Github Link</a>
+                                <br />
+                                <a href="https://jageorge54.github.io/eyeMovementExercise/">see it in action</a>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className='card'>
+                    <Card style={{ width: '18rem' }}>
+                        <div className='cardImg'>
+                            <Card.Img variant="top" src={Map} />
+                        </div>
+                        <Card.Body>
+                            <Card.Title>Bus Tracking</Card.Title>
+                            <Card.Text>
+                                <a href="https://github.com/JAGeorge54/RealTimeBusTracker">Github Link</a>
+                                <br />
+                                <a href="https://jageorge54.github.io/RealTimeBusTracker/">See it in action</a>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className='card'>
+                    <Card style={{ width: '18rem' }}>
+                        <div className='cardImg'>
+                            <Card.Img variant="top" src={BadBank} />
+                        </div>
+                        <Card.Body>
+                            <Card.Title>BadBank</Card.Title>
+                            <Card.Text>
+                                <a href="https://github.com/JAGeorge54/badBank_threeTier">Github Link</a>
+                                <br />
+                                <a href="https://jageorge54-badbank-threetier-b8ee485df166.herokuapp.com/#/">See it in action</a>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
             </div>
-            <div className='card'>
-                <Card style={{ width: '18rem' }}>
-                    <div className='cardImg'>
-                        <Card.Img variant="top" src={Oneeye} />
-                    </div>
-                    <Card.Body>
-                        <Card.Title>Eye Movement</Card.Title>
-                        <Card.Text>
-                            <a href="https://github.com/JAGeorge54/eyeMovementExercise">Github Link</a>
-                            <br />
-                            <a href="https://jageorge54.github.io/eyeMovementExercise/">see it in action</a>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </div>
-            <div className='card'>
-                <Card style={{ width: '18rem' }}>
-                    <div className='cardImg'>
-                        <Card.Img variant="top" src={Map} />
-                    </div>
-                    <Card.Body>
-                        <Card.Title>Bus Tracking</Card.Title>
-                        <Card.Text>
-                            <a href="https://github.com/JAGeorge54/RealTimeBusTracker">Github Link</a>
-                            <br />
-                            <a href="https://jageorge54.github.io/RealTimeBusTracker/">See it in action</a>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </div>
-            <div className='card'>
-                <Card style={{ width: '18rem' }}>
-                    <div className='cardImg'>
-                        <Card.Img variant="top" src={BadBank} />
-                    </div>
-                    <Card.Body>
-                        <Card.Title>BadBank</Card.Title>
-                        <Card.Text>
-                            <a href="https://github.com/JAGeorge54/badBank_threeTier">Github Link</a>
-                            <br />
-                            <a href="https://jageorge54-badbank-threetier-b8ee485df166.herokuapp.com/#/">See it in action</a>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </div>
-        </div>
         </div>
     )
 }
