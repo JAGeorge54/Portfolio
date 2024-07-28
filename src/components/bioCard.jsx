@@ -4,21 +4,10 @@ import jessePic from '../assets/jessePic.jpg'
 
 function BioCard() {
     return (
-        <div className='biocard'>
-            <div style={{
-                padding: '10px'
-            }}
-            >
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={jessePic} />
-                    <Card.Body>
-                        <Card.Title>Jesse George</Card.Title>
-                        <Card.Text>
-                        Highly motivated and results-driven professional seeking a career change to web development, prioritizing a better worklife balance.
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </div>
+        <div className='bioCard'>
+                <h1>Jesse George</h1>
+                <img src={jessePic} />
+            <div className='bioCardText'>Highly motivated and results-driven professional seeking a career change to web development, prioritizing a better worklife balance.</div>
         </div>
     );
 }

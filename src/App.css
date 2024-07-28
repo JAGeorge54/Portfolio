@@ -4,6 +4,42 @@
   flex-direction: column;
 }
 
+.bioCard {
+  max-width: 18em;
+  max-height: 100%;
+  border: solid black;
+  margin: 10px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
+.bioCard h1{
+  text-align: center;
+  color: white;
+  background-color: rgb(33, 37, 41);
+  padding: 5px;
+  margin-bottom: 0;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.bioCard img {
+  width: 100%;
+  
+}
+
+.bioCardText {
+  text-wrap: wrap;
+  background-color: white;
+  height: auto;
+  flex-grow: 1;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+
 .cards {
   height: 100vh;
   gap: 2rem;
@@ -18,7 +54,7 @@
 .homeCards {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 150  px;
 }
 
 .hobbies {
