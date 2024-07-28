@@ -8,12 +8,8 @@ import Col from 'react-bootstrap/Col';
 
 function Home() {
     return (
-        <div className='content'>
-            <div style={{
-                display: 'flex',
-                justifyContent: 'center',
-                flexWrap: 'wrap'
-            }}>
+        <div className='homepageContent'>
+            <div className='bioVideo'>
                 <BioCard />
                 <YoutubeEmbed embedId='ty_mlNuzll8?si=IdfUortm0KZ90j_v'/>
             </div>

@@ -1,11 +1,10 @@
-/* multi page styles */
-.content {
-  display: 'flex';
+/* homepage styles */
+.bioVideo {
+  display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-/* homepage styles */
 .bioCard {
   max-width: 18em;
   max-height: 100%;
@@ -82,6 +81,12 @@
 }
 
 /* project page styles */
+.projectsContent {
+  display: 'flex';
+  justify-content: center;
+  flex-direction: column;
+}
+
 .cards {
   display: flex;
   justify-content: center;
