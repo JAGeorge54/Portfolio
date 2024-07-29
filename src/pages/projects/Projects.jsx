@@ -3,6 +3,7 @@ import Pacman from '../../assets/PacMan1.png'
 import Oneeye from '../../assets/oneeyenew.png'
 import Map from '../../assets/mapnew.jpg'
 import BadBank from '../../assets/BadBankCrop.png'
+import inProgress from '../../assets/inProgress.jpg'
 
 function Projects() {
     return (
@@ -14,14 +15,14 @@ function Projects() {
                 <div className='card'>
                     <Card style={{ width: '18rem' }}>
                         <div className='cardImg'>
-                            <Card.Img variant="top" src={Pacman} style={{height: '261.29px'}}/>
+                            <Card.Img variant="top" src={inProgress} style={{height: '261.29px'}}/>
                         </div>
                         <Card.Body>
-                            <Card.Title>PacMan</Card.Title>
+                            <Card.Title>Full Stack Banking App</Card.Title>
                             <Card.Text>
-                                <a href="https://github.com/JAGeorge54/factoryForPacMen">Github Link</a>
+                                <a href='/comingSoon'>Github Link</a>
                                 <br />
-                                <a href="https://jageorge54.github.io/factoryForPacMen/">see it in action</a>
+                                <a href='/comingSoon'>See it in action</a>
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -41,7 +42,7 @@ function Projects() {
                             <Card.Text>
                                 <a href="https://github.com/JAGeorge54/factoryForPacMen">Github Link</a>
                                 <br />
-                                <a href="https://jageorge54.github.io/factoryForPacMen/">see it in action</a>
+                                <a href="https://jageorge54.github.io/factoryForPacMen/">See it in action</a>
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -56,7 +57,7 @@ function Projects() {
                             <Card.Text>
                                 <a href="https://github.com/JAGeorge54/eyeMovementExercise">Github Link</a>
                                 <br />
-                                <a href="https://jageorge54.github.io/eyeMovementExercise/">see it in action</a>
+                                <a href="https://jageorge54.github.io/eyeMovementExercise/">See it in action</a>
                             </Card.Text>
                         </Card.Body>
                     </Card>
