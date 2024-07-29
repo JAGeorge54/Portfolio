@@ -7,7 +7,27 @@ import BadBank from '../../assets/BadBankCrop.png'
 function Projects() {
     return (
         <div className='projectsContent'>
-            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div style={{display: 'flex', justifyContent: 'center'}}>
+                <h1>Current Project</h1>
+            </div>
+            <div className="cards">
+                <div className='card'>
+                    <Card style={{ width: '18rem' }}>
+                        <div className='cardImg'>
+                            <Card.Img variant="top" src={Pacman} style={{height: '261.29px'}}/>
+                        </div>
+                        <Card.Body>
+                            <Card.Title>PacMan</Card.Title>
+                            <Card.Text>
+                                <a href="https://github.com/JAGeorge54/factoryForPacMen">Github Link</a>
+                                <br />
+                                <a href="https://jageorge54.github.io/factoryForPacMen/">see it in action</a>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
+            </div>
+            <div style={{display: 'flex', justifyContent: 'center'}}>
             <h1>Past Projects</h1>
             </div>
             <div className='cards'>
