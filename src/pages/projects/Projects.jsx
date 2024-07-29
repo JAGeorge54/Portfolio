@@ -6,7 +6,10 @@ import BadBank from '../../assets/BadBankCrop.png'
 
 function Projects() {
     return (
-        <div className='content'>
+        <div className='projectsContent'>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <h1>Past Projects</h1>
+            </div>
             <div className='cards'>
                 <div className='card'>
                     <Card style={{ width: '18rem' }}>
