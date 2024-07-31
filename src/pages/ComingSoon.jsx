@@ -1,7 +1,9 @@
+import UnderConstruction from '../assets/underConstruction.jpg'
+
 function ComingSoon() {
     return (
-        <div style={{display: 'flex'}}>
-            <h1>Coming Soon</h1>
+        <div style={{display: 'flex', justifyContent: 'center', height: '100hv'}}>
+            <img src={UnderConstruction} />
         </div>
     );
 }
