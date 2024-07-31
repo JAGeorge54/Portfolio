@@ -1,11 +1,11 @@
-html {
+html, body {
   height: 100%;
+  margin: 0;
 }
 body {
-  min-height: 100%;
   background-color: darkgrey;
 }
 
 #root {
-  min-height: 100%;
+  height: 100%;
 }
