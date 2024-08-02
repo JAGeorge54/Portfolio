@@ -146,3 +146,24 @@
   border-radius: 6px;
   padding: 5px;
 }
+
+/* contact page */
+.links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 200px;
+}
+
+.github, .linkedIn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 40px;
+  font-size: 40px;
+}
+
+.githubText, .linkedinText {
+  font-family: ultra;
+  color: Black;
+  text-decoration: none;
+}
